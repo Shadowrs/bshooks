@@ -6,6 +6,10 @@
             <interface>Client</interface>
         </add>
         <add>
+            <classname>class217</classname>
+            <interface>LinkedList</interface>
+        </add>
+        <add>
             <classname>class72</classname>
             <interface>Player</interface>
         </add>
@@ -16,6 +20,10 @@
         <add>
             <classname>class84</classname>
             <interface>Npc</interface>
+        </add>
+        <add>
+            <classname>class282</classname>
+            <interface>ObjectDefinition</interface>
         </add>
         <add>
             <classname>class285</classname>
@@ -62,6 +70,18 @@
             <field>field1300</field>
             <methodname>getNpcDef</methodname>
             <desc>%sNpcDefinition</desc>
+        </add>
+        <add>
+            <accessor>ObjectDefinition</accessor>
+            <field>field3613</field>
+            <methodname>getActions</methodname>
+            <desc>[Ljava/lang/String;</desc>
+        </add>
+        <add>
+            <accessor>ObjectDefinition</accessor>
+            <field>field3596</field>
+            <methodname>getName</methodname>
+            <desc>Ljava/lang/String;</desc>
         </add>
         <add>
             <accessor>NpcDefinition</accessor>
@@ -137,6 +157,54 @@
             <methodname>getAnimation</methodname>
             <desc>I</desc>
             <descfield>I</descfield>
+        </add>
+        <add>
+            <accessor>Client</accessor>
+            <field>field897</field>
+            <methodname>getLocalNpcs</methodname>
+            <desc>[%sNpc</desc>
+        </add>
+        <add>
+            <accessor>Client</accessor>
+            <field>field983</field>
+            <methodname>getGroundItems</methodname>
+            <desc>[[[%sLinkedList</desc>
+        </add>
+        <add>
+            <accessor>Client</accessor>
+            <field>field971</field>
+            <methodname>getLocalPlayers</methodname>
+            <desc>[%sPlayer</desc>
+        </add>
+        <add>
+            <accessor>Client</accessor>
+            <field>field916</field>
+            <methodname>getRealLevels</methodname>
+            <desc>[I</desc>
+        </add>
+        <add>
+            <accessor>Client</accessor>
+            <field>field1120</field>
+            <methodname>getCurrentLevels</methodname>
+            <desc>[I</desc>
+        </add>
+        <add>
+            <accessor>Client</accessor>
+            <field>field917</field>
+            <methodname>getExperiences</methodname>
+            <desc>[I</desc>
+        </add>
+        <add>
+            <accessor>Client</accessor>
+            <field>field2770</field>
+            <methodname>getGameSettings</methodname>
+            <desc>[I</desc>
+        </add>
+        <add>
+            <accessor>Player</accessor>
+            <field>field832</field>
+            <methodname>getCombatLevel</methodname>
+            <desc>I</desc>
         </add>
     </getters>
     <setters>
