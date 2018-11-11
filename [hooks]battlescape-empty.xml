@@ -64,6 +64,66 @@
             <desc>%sNpcDefinition</desc>
         </add>
         <add>
+            <accessor>NpcDefinition</accessor>
+            <field>field3701</field>
+            <methodname>getNpcName</methodname>
+            <desc>Ljava/lang/String;</desc>
+        </add>
+        <add>
+            <accessor>NpcDefinition</accessor>
+            <field>field3720</field>
+            <methodname>getNpcActions</methodname>
+            <desc>[Ljava/lang/String;</desc>
+        </add>
+        <add>
+            <accessor>NpcDefinition</accessor>
+            <field>field3715</field>
+            <methodname>getNpcCombatLevel</methodname>
+            <desc>I</desc>
+        </add>
+        <add>
+            <accessor>NpcDefinition</accessor>
+            <field>field3700</field>
+            <methodname>getNpcID</methodname>
+            <desc>I</desc>
+        </add>
+        <add>
+            <accessor>Widget</accessor>
+            <field>field2938</field>
+            <methodname>getChildren</methodname>
+            <desc>[%sWidget</desc>
+        </add>
+        <add>
+            <accessor>Widget</accessor>
+            <field>field2876</field>
+            <methodname>getText</methodname>
+            <desc>Ljava/lang/String;</desc>
+        </add>
+        <add>
+            <accessor>Widget</accessor>
+            <field>field2930</field>
+            <methodname>getWidgetName</methodname>
+            <desc>Ljava/lang/String;</desc>
+        </add>
+        <add>
+            <accessor>Widget</accessor>
+            <field>field2878</field>
+            <methodname>getInvIDs</methodname>
+            <desc>[I</desc>
+        </add>
+        <add>
+            <accessor>Widget</accessor>
+            <field>field2944</field>
+            <methodname>getWidgetItemID</methodname>
+            <desc>I</desc>
+        </add>
+        <add>
+            <accessor>Widget</accessor>
+            <field>anInt1774</field>
+            <methodname>getParentID</methodname>
+            <desc>I</desc>
+        </add>
+        <add>
             <classname>class12</classname>
 			<into>client</into>
             <field>field259</field>
