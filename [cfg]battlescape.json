@@ -1,0 +1,14 @@
+{
+	"name": "BattleScape",
+	"author": "Shadowrs",
+	"version": 0.2,
+	"client-class": "client",
+	"uuid": "16",
+	"locations":{
+		"provider": "file:C:/Users/Jak/.m2/repository/org/parabot/servers/317-api-os-scape/0.2/317-api-os-scape-0.2-shaded.jar",
+		"server": "file:C:/Users/Jak/Documents/Parabot/other/battlescapeclient.jar",
+		"hooks": "file:C:/Users/Jak/Documents/Parabot/servers/[hooks]battlescape-empty.xml",
+		"info": "",
+		"randoms": "file:C:/Users/Jak/.m2/repository/org/parabot/randoms/0.25.4/randoms-0.25.4.jar"
+    }
+}
