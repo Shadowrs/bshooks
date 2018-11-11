@@ -1,2 +1,6 @@
 bsff/.idea/
 *.iml
+imagineps/com/google/
+imagineps/org/apache/
+imagineps/org/w3c/
+imagineps/org/checkerframework/

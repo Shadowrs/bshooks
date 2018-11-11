@@ -1,0 +1,307 @@
+Summary for C:\Users\Jak\.Bytecode-Viewer\bcv_temp\temp.jar
+Decompiled with CFR 0_125
+
+
+com.imagineps.client.Mobile
+----------------------------
+
+updateHitData(int int int int int int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [0[WHILELOOP]], but top level block is 2[SIMPLE_IF_ELSE]
+
+
+com.imagineps.client.Class13
+----------------------------
+
+method226(com.imagineps.client.Class32 )
+  Unable to fully structure code
+method227(com.imagineps.client.Class32 )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [10[UNCONDITIONALDOLOOP]], but top level block is 12[UNCONDITIONALDOLOOP]
+
+
+com.imagineps.client.MapRegion
+----------------------------
+
+method171(com.imagineps.client.CollisionMap[] com.imagineps.client.WorldController )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [16[UNCONDITIONALDOLOOP]], but top level block is 18[UNCONDITIONALDOLOOP]
+method189(int byte[] int )
+  Unable to fully structure code
+
+
+com.imagineps.client.RSApplet
+----------------------------
+
+interfaceScrollCheck(java.awt.event.MouseWheelEvent )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Extractable last case doesn't follow previous
+
+
+com.imagineps.client.TextDrawingArea
+----------------------------
+
+<init>(boolean java.lang.String com.imagineps.client.StreamLoader )
+  Unable to fully structure code
+
+
+com.imagineps.client.WorldController
+----------------------------
+
+method310(int int int int int[] )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [0[UNCONDITIONALDOLOOP]], but top level block is 2[UNCONDITIONALDOLOOP]
+method307(int int int int int com.imagineps.client.Model )
+  Unable to fully structure code
+method314(com.imagineps.client.Tile boolean )
+  Unable to fully structure code
+
+
+com.imagineps.client.FileUtility
+----------------------------
+
+replaceData(java.io.File java.io.File )
+  Unable to fully structure code
+
+
+com.imagineps.client.RSFont
+----------------------------
+
+getTagColor(java.lang.String )
+  Exception : org.benf.cfr.reader.bytecode.analysis.opgraph.op4rewriters.SwitchStringRewriter$TooOptimisticMatchException
+<init>(boolean java.lang.String com.imagineps.client.StreamLoader )
+  Unable to fully structure code
+drawBasicString(java.lang.String int int )
+  Unable to fully structure code
+getTextWidth(java.lang.String )
+  Unable to fully structure code
+
+
+com.imagineps.client.ClientFrame
+----------------------------
+
+actionPerformed(java.awt.event.ActionEvent )
+  Exception : org.benf.cfr.reader.bytecode.analysis.opgraph.op4rewriters.SwitchStringRewriter$TooOptimisticMatchException
+
+
+com.imagineps.client.Client
+----------------------------
+
+build3dScreenMenu()
+  Unable to fully structure code
+buildInterfaceMenu(int com.imagineps.client.rs_interface.RSInterface int int int int )
+  Unable to fully structure code
+buildSplitPrivateChatMenu(int int )
+  Unable to fully structure code
+draw3dScreen()
+  Unable to fully structure code
+drawInterface(int int com.imagineps.client.rs_interface.RSInterface int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [12[UNCONDITIONALDOLOOP]], but top level block is 14[FORLOOP]
+drawMinimap(com.imagineps.client.graphics.GraphicsBuffer int int )
+  Unable to fully structure code
+drawSplitPrivateChat(int int )
+  Unable to fully structure code
+getOrbValues(int com.imagineps.client.graphics.Sprite )
+  Unable to fully structure code
+method146()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [4[UNCONDITIONALDOLOOP]], but top level block is 8[SIMPLE_IF_TAKEN]
+method22()
+  Unable to fully structure code
+method73()
+  Unable to fully structure code
+parsePacket()
+  Exception : org.benf.cfr.reader.util.CannotPerformDecode: reachable test BLOCK was exited and re-entered.
+readDetails()
+  Unable to fully structure code
+updateEntities()
+  Unable to fully structure code
+
+
+com.imagineps.client.definition.ObjectDefinition
+----------------------------
+
+readValues(com.imagineps.client.Stream )
+  Unable to fully structure code
+
+
+com.imagineps.client.particles.ParticleDefinition
+----------------------------
+
+getStartVelocity(int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Extractable last case doesn't follow previous
+
+
+com.google.gson.internal.bind.TypeAdapters
+----------------------------
+
+read(com.google.gson.stream.JsonReader )
+  Unable to fully structure code
+
+
+com.google.gson.internal.bind.util.ISO8601Utils
+----------------------------
+
+parse(java.lang.String java.text.ParsePosition )
+  Unable to fully structure code
+
+
+com.google.gson.stream.JsonReader
+----------------------------
+
+doPeek()
+  Unable to fully structure code
+peekNumber()
+  Unable to fully structure code
+skipUnquotedValue()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Extractable last case doesn't follow previous
+
+
+org.apache.commons.lang3.CharSequenceUtils
+----------------------------
+
+regionMatches(java.lang.CharSequence boolean int java.lang.CharSequence int int )
+  Unable to fully structure code
+
+
+org.apache.commons.lang3.CharSetUtils
+----------------------------
+
+squeeze(java.lang.String java.lang.String[] )
+  Unable to fully structure code
+
+
+org.apache.commons.lang3.text.ExtendedMessageFormat
+----------------------------
+
+readArgumentIndex(java.lang.String java.text.ParsePosition )
+  Unable to fully structure code
+insertFormats(java.lang.String java.util.ArrayList<java.lang.String> )
+  Unable to fully structure code
+
+
+org.apache.commons.lang3.text.translate.CharSequenceTranslator
+----------------------------
+
+translate(java.lang.CharSequence java.io.Writer )
+  Unable to fully structure code
+
+
+org.apache.commons.lang3.reflect.TypeUtils
+----------------------------
+
+isAssignable(java.lang.reflect.Type java.lang.reflect.ParameterizedType java.util.Map<java.lang.reflect.TypeVariable<?>, java.lang.reflect.Type> )
+  Unable to fully structure code
+
+
+org.apache.commons.lang3.time.FastDatePrinter
+----------------------------
+
+appendFullDigits(java.lang.Appendable int int )
+  Unable to fully structure code
+
+
+org.apache.commons.lang3.concurrent.Memoizer
+----------------------------
+
+compute(I )
+  Loose catch block
+
+
+org.apache.commons.lang3.math.NumberUtils
+----------------------------
+
+createNumber(java.lang.String )
+  Exception : org.benf.cfr.reader.util.CannotPerformDecode: reachable test BLOCK was exited and re-entered.
+
+
+org.apache.commons.lang3.time.DurationFormatUtils
+----------------------------
+
+lexx(java.lang.String )
+  Unable to fully structure code
+
+
+org.w3c.tidy.EncodingUtils
+----------------------------
+
+decodeUTF8BytesToChar(int[] int byte[] org.w3c.tidy.EncodingUtils$GetBytes int[] int )
+  Unable to fully structure code
+
+
+org.w3c.tidy.Lexer
+----------------------------
+
+getToken(short )
+  Unable to fully structure code
+
+
+org.w3c.tidy.ParserImpl
+----------------------------
+
+parse(org.w3c.tidy.Lexer org.w3c.tidy.Node short )
+  Unable to fully structure code
+
+
+org.w3c.tidy.PPrint
+----------------------------
+
+shouldIndent(org.w3c.tidy.Node )
+  Unable to fully structure code
+
+
+org.w3c.tidy.TagTable
+----------------------------
+
+defineTag(short java.lang.String )
+  Unable to fully structure code
+findAllDefinedTag(short )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: CONTINUE without a while class org.benf.cfr.reader.bytecode.analysis.parse.statement.GotoStatement
+
+
+afu.org.checkerframework.checker.formatter.FormatUtil
+----------------------------
+
+formatParameterCategories(java.lang.String )
+  Unable to fully structure code
+
+
+afu.org.checkerframework.checker.nullness.NullnessUtils
+----------------------------
+
+castNonNull(T )
+  Exception : java.lang.ClassCastException: org.benf.cfr.reader.entities.attributes.AttributeUnknown cannot be cast to org.benf.cfr.reader.entities.attributes.AttributeRuntimeVisibleTypeAnnotations
+castNonNullDeep(T[] )
+  Exception : java.lang.ClassCastException: org.benf.cfr.reader.entities.attributes.AttributeUnknown cannot be cast to org.benf.cfr.reader.entities.attributes.AttributeRuntimeVisibleTypeAnnotations
+castNonNullDeep(T[][] )
+  Exception : java.lang.ClassCastException: org.benf.cfr.reader.entities.attributes.AttributeUnknown cannot be cast to org.benf.cfr.reader.entities.attributes.AttributeRuntimeVisibleTypeAnnotations
+castNonNullDeep(T[][][] )
+  Exception : java.lang.ClassCastException: org.benf.cfr.reader.entities.attributes.AttributeUnknown cannot be cast to org.benf.cfr.reader.entities.attributes.AttributeRuntimeVisibleTypeAnnotations
+castNonNullDeep(T[][][][] )
+  Exception : java.lang.ClassCastException: org.benf.cfr.reader.entities.attributes.AttributeUnknown cannot be cast to org.benf.cfr.reader.entities.attributes.AttributeRuntimeVisibleTypeAnnotations
+castNonNullDeep(T[][][][][] )
+  Exception : java.lang.ClassCastException: org.benf.cfr.reader.entities.attributes.AttributeUnknown cannot be cast to org.benf.cfr.reader.entities.attributes.AttributeRuntimeVisibleTypeAnnotations
+castNonNullArray(T[] )
+  Exception : java.lang.ClassCastException: org.benf.cfr.reader.entities.attributes.AttributeUnknown cannot be cast to org.benf.cfr.reader.entities.attributes.AttributeRuntimeVisibleTypeAnnotations
+
+
+org.checkerframework.checker.formatter.FormatUtil
+----------------------------
+
+formatParameterCategories(java.lang.String )
+  Unable to fully structure code
+
+
+org.checkerframework.checker.nullness.NullnessUtils
+----------------------------
+
+castNonNull(T )
+  Exception : java.lang.ClassCastException: org.benf.cfr.reader.entities.attributes.AttributeUnknown cannot be cast to org.benf.cfr.reader.entities.attributes.AttributeRuntimeVisibleTypeAnnotations
+castNonNullDeep(T[] )
+  Exception : java.lang.ClassCastException: org.benf.cfr.reader.entities.attributes.AttributeUnknown cannot be cast to org.benf.cfr.reader.entities.attributes.AttributeRuntimeVisibleTypeAnnotations
+castNonNullDeep(T[][] )
+  Exception : java.lang.ClassCastException: org.benf.cfr.reader.entities.attributes.AttributeUnknown cannot be cast to org.benf.cfr.reader.entities.attributes.AttributeRuntimeVisibleTypeAnnotations
+castNonNullDeep(T[][][] )
+  Exception : java.lang.ClassCastException: org.benf.cfr.reader.entities.attributes.AttributeUnknown cannot be cast to org.benf.cfr.reader.entities.attributes.AttributeRuntimeVisibleTypeAnnotations
+castNonNullDeep(T[][][][] )
+  Exception : java.lang.ClassCastException: org.benf.cfr.reader.entities.attributes.AttributeUnknown cannot be cast to org.benf.cfr.reader.entities.attributes.AttributeRuntimeVisibleTypeAnnotations
+castNonNullDeep(T[][][][][] )
+  Exception : java.lang.ClassCastException: org.benf.cfr.reader.entities.attributes.AttributeUnknown cannot be cast to org.benf.cfr.reader.entities.attributes.AttributeRuntimeVisibleTypeAnnotations
+castNonNullArray(T[] )
+  Exception : java.lang.ClassCastException: org.benf.cfr.reader.entities.attributes.AttributeUnknown cannot be cast to org.benf.cfr.reader.entities.attributes.AttributeRuntimeVisibleTypeAnnotations
+
+Classes with case insensitive name clashes seen, and your FS appears to be case insensitive - consider using --caseinsensitivefs true
